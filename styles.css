@@ -104,6 +104,7 @@ html,body{width:100%;max-width:100%;overflow-x:hidden}.hero-content,.hero-visual
 .sticky-form input,.sticky-form select{display:block;width:100%;height:43px;margin-top:5px;padding:0 11px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--ink);font-size:.82rem;outline:none}
 .sticky-form input:focus,.sticky-form select:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(7,80,164,.1)}
 .sticky-form .btn{width:100%;min-height:49px;margin-top:4px}
+.form-message{margin:10px 0 0;padding:10px 12px;border-radius:8px;background:var(--sky);color:var(--blue-dark);font-size:.7rem;line-height:1.45;font-weight:750}
 .sidebar-whatsapp{display:block;margin-top:12px;text-align:center;color:#178b4e;font-size:.76rem;font-weight:850}
 
 .program-content>.trust-strip{order:1;grid-template-columns:repeat(4,1fr);width:calc(100% - 48px);max-width:none;margin:-30px 24px 0;padding:20px 12px;border-radius:14px}
