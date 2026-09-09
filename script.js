@@ -39,3 +39,11 @@ const closeModal = () => {
 document.querySelector('.modal-close')?.addEventListener('click', closeModal);
 document.querySelector('.modal-backdrop')?.addEventListener('click', closeModal);
 document.addEventListener('keydown', event => { if (event.key === 'Escape') closeModal(); });
+
+document.querySelector('.sticky-form')?.addEventListener('submit', event => {
+  event.preventDefault();
+  const form = event.currentTarget;
+  if (!form.reportValidity()) return;
+  const message = form.querySelector('.form-message');
+  if (message) message.hidden = false;
+});
